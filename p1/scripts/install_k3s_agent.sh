@@ -1,4 +1,5 @@
 #!/bin/bash
+START=$(date +%s)
 
 # Wait for the server token to exist
 while [ ! -f /vagrant/shared/token ]; do
@@ -7,8 +8,10 @@ while [ ! -f /vagrant/shared/token ]; do
 done
 
 # Install K3s in agent mode
-K3S_URL="192.168.56.110"
+K3S_URL="https://192.168.56.110:6443"
 K3S_TOKEN=$(cat /vagrant/shared/token)
 curl -sfL https://get.k3s.io | K3S_URL=$K3S_URL K3S_TOKEN=$K3S_TOKEN sh -
-
 ln -s /usr/local/bin/kubectl /usr/bin/kubectl
+apt update && apt install net-tools
+END=$(date +%s)
+echo "⏱️ Provisioning script ran for $(($END - $START)) seconds"
