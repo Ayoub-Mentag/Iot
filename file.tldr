@@ -665,8 +665,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5782.011544979415,
-			"y": -2881.351123831534,
+			"x": -6220.637927620423,
+			"y": -2578.1029673080775,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -748,8 +748,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5830.973051873103,
-			"y": -2645.2949038341394,
+			"x": -5833.379446600789,
+			"y": -2890.7441868849505,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -778,8 +778,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5734.282812091623,
-			"y": -2865.7065058988283,
+			"x": -6172.9091947326315,
+			"y": -2562.4583493753717,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -801,8 +801,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5784.11370971904,
-			"y": -2725.2111327615503,
+			"x": -6218.975065147774,
+			"y": -2428.0537662091674,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -831,8 +831,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5758.593097846604,
-			"y": -2710.449636470383,
+			"x": -6188.112148175291,
+			"y": -2408.652207740558,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -854,8 +854,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5856.049403975139,
-			"y": -2288.618021881037,
+			"x": -5738.344733968133,
+			"y": -2287.6623549469823,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -877,8 +877,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5767.939626520503,
-			"y": -2830.0998347218338,
+			"x": -6206.566009161512,
+			"y": -2526.851678198377,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5099,80 +5099,6 @@
 			"typeName": "shape"
 		},
 		{
-			"id": "pointer:pointer",
-			"typeName": "pointer",
-			"x": -4130.368154595896,
-			"y": -2563.348909043471,
-			"lastActivityTimestamp": 1746126039208,
-			"meta": {}
-		},
-		{
-			"followingUserId": null,
-			"opacityForNextShape": 1,
-			"stylesForNextShape": {},
-			"brush": null,
-			"scribbles": [],
-			"cursor": {
-				"type": "default",
-				"rotation": 0
-			},
-			"isFocusMode": false,
-			"exportBackground": true,
-			"isDebugMode": false,
-			"isToolLocked": false,
-			"screenBounds": {
-				"x": 0,
-				"y": 0,
-				"w": 1206,
-				"h": 682
-			},
-			"insets": [
-				false,
-				false,
-				true,
-				false
-			],
-			"zoomBrush": null,
-			"isGridMode": false,
-			"isPenMode": false,
-			"chatMessage": "",
-			"isChatting": false,
-			"highlightedUserIds": [],
-			"isFocused": true,
-			"devicePixelRatio": 2,
-			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
-			"openMenus": [],
-			"isChangingStyle": false,
-			"isReadonly": false,
-			"meta": {},
-			"duplicateProps": null,
-			"id": "instance:instance",
-			"currentPageId": "page:page",
-			"typeName": "instance"
-		},
-		{
-			"editingShapeId": null,
-			"croppingShapeId": null,
-			"selectedShapeIds": [],
-			"hoveredShapeId": null,
-			"erasingShapeIds": [],
-			"hintingShapeIds": [],
-			"focusedGroupId": null,
-			"meta": {},
-			"id": "instance_page_state:page:page",
-			"pageId": "page:page",
-			"typeName": "instance_page_state"
-		},
-		{
-			"x": 11077.732383711073,
-			"y": 5447.987425498976,
-			"z": 0.13618474126273059,
-			"meta": {},
-			"id": "camera:page:page",
-			"typeName": "camera"
-		},
-		{
 			"x": -6562.513452443914,
 			"y": -803.8303370934102,
 			"rotation": 0,
@@ -5203,8 +5129,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5819.521924801228,
-			"y": -2634.297847691279,
+			"x": -5821.9283195289145,
+			"y": -2879.74713074209,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5226,8 +5152,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5819.058518843685,
-			"y": -2600.8783712849904,
+			"x": -5821.464913571372,
+			"y": -2846.3276543358015,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5238,7 +5164,7 @@
 				"color": "black",
 				"size": "m",
 				"w": 596.7600092355952,
-				"text": "Pod is the small units, it could contains multiple containers sharing same storage\nnetwork ... [Using that extra layer give possibility ]",
+				"text": "Pod is the small units, it could contains multiple containers sharing same storage\nnetwork ... [Using that extra layer give possibility ]\n\nThe best practice is to have a single container per Pod; however, there are scenarios where multiple containers are necessary—for example, when using a sidecar container to collect or store logs",
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": false,
@@ -5246,6 +5172,194 @@
 			},
 			"parentId": "page:page",
 			"index": "b242Pj",
+			"typeName": "shape"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": -5034.533699830246,
+			"y": -2525.4964128313413,
+			"lastActivityTimestamp": 1746205065718,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1050,
+				"h": 886.111083984375
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 2.880000114440918,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:KZDsGLgDdD9U21Bqo6q5X"
+			],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 6737.2686528127415,
+			"y": 4046.284069692978,
+			"z": 0.3200688220153495,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": -5238.480138670727,
+			"y": -2856.373582773568,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:q60GW0S7YEOQloo3aSexH",
+			"type": "text",
+			"props": {
+				"color": "yellow",
+				"size": "m",
+				"w": 65.9685287475586,
+				"text": "Probe",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b269jc",
+			"typeName": "shape"
+		},
+		{
+			"x": -5238.1523160412335,
+			"y": -2825.9204445662604,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Dkk30X0OqZ37Wsnmk3wXi",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 596.7600092355952,
+				"text": " Probes are a configuration that you define in your Pod spec, a diagnostic tool used by Kubernetes to:\n - Check if the app is alive (Liveness Probe)\n - Check if the app is ready to accept traffic (Readiness Probe)\n - Check if the app started properly (Startup Probe)",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 0.5964492517610708
+			},
+			"parentId": "page:page",
+			"index": "b27BSG",
+			"typeName": "shape"
+		},
+		{
+			"x": -5461.869968653145,
+			"y": -2774.8052030693716,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:P4UEwjagy56lVyYZVTzpY",
+			"type": "line",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"color": "black",
+				"spline": "line",
+				"points": {
+					"a1": {
+						"id": "a1",
+						"index": "a1",
+						"x": 0,
+						"y": 0
+					},
+					"a2Bw1": {
+						"id": "a2Bw1",
+						"index": "a2Bw1",
+						"x": 200.87540204041125,
+						"y": 3.8022147903775476
+					}
+				},
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b285G9",
+			"typeName": "shape"
+		},
+		{
+			"x": -5248.500238615588,
+			"y": -2892.947749679995,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:KZDsGLgDdD9U21Bqo6q5X",
+			"type": "geo",
+			"props": {
+				"w": 370.7962301501033,
+				"h": 248.02574565434637,
+				"geo": "rectangle",
+				"color": "blue",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b292Jp",
 			"typeName": "shape"
 		}
 	]
