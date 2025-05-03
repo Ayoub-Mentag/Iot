@@ -644,7 +644,7 @@
 			"id": "shape:eS1eM0GVG3QifecUBRFEJ",
 			"type": "geo",
 			"props": {
-				"w": 777.6256840628422,
+				"w": 1180.9731572073736,
 				"h": 693.9441095479494,
 				"geo": "rectangle",
 				"color": "black",
@@ -748,8 +748,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5833.379446600789,
-			"y": -2890.7441868849505,
+			"x": -5835.731666117961,
+			"y": -2892.061442842194,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -757,8 +757,8 @@
 			"id": "shape:_N-45Lgo2pOYFvRzVRkg4",
 			"type": "geo",
 			"props": {
-				"w": 370.7962301501033,
-				"h": 248.02574565434637,
+				"w": 423.1528797603392,
+				"h": 207.81377582891585,
 				"geo": "rectangle",
 				"color": "blue",
 				"labelColor": "black",
@@ -854,8 +854,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5738.344733968133,
-			"y": -2287.6623549469823,
+			"x": -5718.809077155725,
+			"y": -2280.6600337990244,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -923,7 +923,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6504.911910304374,
+			"x": -6503.911910304374,
 			"y": -2779.5712085259834,
 			"rotation": 0,
 			"isLocked": false,
@@ -953,8 +953,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6585.421104932115,
-			"y": -2778.671485469129,
+			"x": -6570.421104932115,
+			"y": -2780.671485469129,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -992,7 +992,7 @@
 			"id": "shape:62CbR18_EzDF-laubRLgC",
 			"type": "geo",
 			"props": {
-				"w": 2027.6207697687325,
+				"w": 3032.695290992271,
 				"h": 1044.7790339129367,
 				"geo": "rectangle",
 				"color": "black",
@@ -3376,7 +3376,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6796.366787653438,
+			"x": -6821.366787653438,
 			"y": -3862.6132740725034,
 			"rotation": 0,
 			"isLocked": false,
@@ -3406,7 +3406,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6796.366787653438,
+			"x": -6821.366787653438,
 			"y": -3862.6132740725034,
 			"rotation": 0,
 			"isLocked": false,
@@ -3436,7 +3436,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6686.926966134497,
+			"x": -6711.926966134497,
 			"y": -3827.3809174369535,
 			"rotation": 0,
 			"isLocked": false,
@@ -3466,7 +3466,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6777.745761688175,
+			"x": -6802.745761688175,
 			"y": -3831.1646061385118,
 			"rotation": 0,
 			"isLocked": false,
@@ -3496,7 +3496,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6686.685986692499,
+			"x": -6711.685986692499,
 			"y": -3735.6803090065423,
 			"rotation": 0,
 			"isLocked": false,
@@ -3526,7 +3526,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6777.504782246176,
+			"x": -6802.504782246176,
 			"y": -3739.4639977080997,
 			"rotation": 0,
 			"isLocked": false,
@@ -3556,7 +3556,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6685.568298892822,
+			"x": -6710.568298892822,
 			"y": -3655.561464986963,
 			"rotation": 0,
 			"isLocked": false,
@@ -3586,7 +3586,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6776.3870944465,
+			"x": -6801.3870944465,
 			"y": -3659.3451536885204,
 			"rotation": 0,
 			"isLocked": false,
@@ -3616,7 +3616,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6685.327319450824,
+			"x": -6710.327319450824,
 			"y": -3563.860856556552,
 			"rotation": 0,
 			"isLocked": false,
@@ -3646,7 +3646,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6776.146115004501,
+			"x": -6801.146115004501,
 			"y": -3567.6445452581092,
 			"rotation": 0,
 			"isLocked": false,
@@ -3676,7 +3676,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6497.045288360445,
+			"x": -6522.045288360445,
 			"y": -3827.8167049367194,
 			"rotation": 0,
 			"isLocked": false,
@@ -3706,7 +3706,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6587.864083914123,
+			"x": -6612.864083914123,
 			"y": -3831.6003936382767,
 			"rotation": 0,
 			"isLocked": false,
@@ -3736,7 +3736,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6496.804308918447,
+			"x": -6521.804308918447,
 			"y": -3736.1160965063073,
 			"rotation": 0,
 			"isLocked": false,
@@ -3766,7 +3766,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6587.6231044721235,
+			"x": -6612.6231044721235,
 			"y": -3739.8997852078655,
 			"rotation": 0,
 			"isLocked": false,
@@ -3796,7 +3796,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6495.68662111877,
+			"x": -6520.68662111877,
 			"y": -3655.997252486729,
 			"rotation": 0,
 			"isLocked": false,
@@ -3826,7 +3826,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6586.505416672447,
+			"x": -6611.505416672447,
 			"y": -3659.7809411882863,
 			"rotation": 0,
 			"isLocked": false,
@@ -3856,7 +3856,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6495.445641676772,
+			"x": -6520.445641676772,
 			"y": -3564.296644056317,
 			"rotation": 0,
 			"isLocked": false,
@@ -3886,7 +3886,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6586.2644372304485,
+			"x": -6611.2644372304485,
 			"y": -3568.080332757875,
 			"rotation": 0,
 			"isLocked": false,
@@ -3916,7 +3916,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6324.697748900862,
+			"x": -6349.697748900862,
 			"y": -3828.1858452978468,
 			"rotation": 0,
 			"isLocked": false,
@@ -3946,7 +3946,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6415.516544454539,
+			"x": -6440.516544454539,
 			"y": -3831.969533999404,
 			"rotation": 0,
 			"isLocked": false,
@@ -3976,7 +3976,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6324.456769458863,
+			"x": -6349.456769458863,
 			"y": -3736.4852368674356,
 			"rotation": 0,
 			"isLocked": false,
@@ -4006,7 +4006,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6415.27556501254,
+			"x": -6440.27556501254,
 			"y": -3740.268925568993,
 			"rotation": 0,
 			"isLocked": false,
@@ -4036,7 +4036,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6323.339081659186,
+			"x": -6348.339081659186,
 			"y": -3656.3663928478563,
 			"rotation": 0,
 			"isLocked": false,
@@ -4066,7 +4066,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6414.157877212863,
+			"x": -6439.157877212863,
 			"y": -3660.1500815494137,
 			"rotation": 0,
 			"isLocked": false,
@@ -4096,7 +4096,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6323.098102217188,
+			"x": -6348.098102217188,
 			"y": -3564.665784417445,
 			"rotation": 0,
 			"isLocked": false,
@@ -4126,7 +4126,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6413.916897770865,
+			"x": -6438.916897770865,
 			"y": -3568.4494731190025,
 			"rotation": 0,
 			"isLocked": false,
@@ -4225,8 +4225,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6227.82379437302,
-			"y": -4314.9076081212825,
+			"x": -6220.206518446119,
+			"y": -4344.749667949637,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4257,7 +4257,7 @@
 			"id": "shape:VMxv9SDxhpVb_-ALezwpl",
 			"type": "geo",
 			"props": {
-				"w": 2003.3481894498022,
+				"w": 2931.218964355928,
 				"h": 1164.6011853619098,
 				"geo": "rectangle",
 				"color": "black",
@@ -4675,7 +4675,7 @@
 			"id": "shape:h8orfiemHHi4r1HkYPA1v",
 			"type": "geo",
 			"props": {
-				"w": 2227.56516633514,
+				"w": 3308.2127493429525,
 				"h": 2811.1046172751307,
 				"geo": "rectangle",
 				"color": "violet",
@@ -5175,18 +5175,129 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -5763.978469044406,
+			"y": -3099.8816346497338,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:q60GW0S7YEOQloo3aSexH",
+			"type": "text",
+			"props": {
+				"color": "yellow",
+				"size": "m",
+				"w": 65.9685287475586,
+				"text": "Probe",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b269jc",
+			"typeName": "shape"
+		},
+		{
+			"x": -5765.8574727879195,
+			"y": -3067.8742741521123,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Dkk30X0OqZ37Wsnmk3wXi",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 596.7600092355952,
+				"text": " Probes are a configuration that you define in your Pod spec, a diagnostic tool used by Kubernetes to:\n - Check if the app is alive (Liveness Probe)\n - Check if the app is ready to accept traffic (Readiness Probe)\n - Check if the app started properly (Startup Probe)",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 0.5964492517610708
+			},
+			"parentId": "page:page",
+			"index": "b27BSG",
+			"typeName": "shape"
+		},
+		{
+			"x": -5644.618673496431,
+			"y": -2893.8922090919214,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:P4UEwjagy56lVyYZVTzpY",
+			"type": "line",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"color": "black",
+				"spline": "line",
+				"points": {
+					"a1": {
+						"id": "a1",
+						"index": "a1",
+						"x": 0,
+						"y": 0
+					},
+					"a2Bw1": {
+						"id": "a2Bw1",
+						"index": "a2Bw1",
+						"x": -1.5593502944329884,
+						"y": -50.94272457989291
+					}
+				},
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b285G9",
+			"typeName": "shape"
+		},
+		{
+			"x": -5779.339272512622,
+			"y": -3106.1756612465992,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:KZDsGLgDdD9U21Bqo6q5X",
+			"type": "geo",
+			"props": {
+				"w": 370.7962301501033,
+				"h": 163.4764449990544,
+				"geo": "rectangle",
+				"color": "blue",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b292Jp",
+			"typeName": "shape"
+		},
+		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": -5034.533699830246,
-			"y": -2525.4964128313413,
-			"lastActivityTimestamp": 1746205065718,
+			"x": -6029.051689283217,
+			"y": -4287.320300785141,
+			"lastActivityTimestamp": 1746285636274,
 			"meta": {}
 		},
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:geo": "rectangle"
+				"tldraw:geo": "rectangle",
+				"tldraw:color": "blue"
 			},
 			"brush": null,
 			"scribbles": [],
@@ -5201,7 +5312,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1050,
+				"w": 931.2499389648438,
 				"h": 886.111083984375
 			},
 			"insets": [
@@ -5233,9 +5344,9 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:KZDsGLgDdD9U21Bqo6q5X"
+				"shape:f6govMLmi5fPZTOBDEJVV"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:f6govMLmi5fPZTOBDEJVV",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -5245,105 +5356,25 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 6737.2686528127415,
-			"y": 4046.284069692978,
-			"z": 0.3200688220153495,
+			"x": 8288.549115014459,
+			"y": 6026.019398593422,
+			"z": 0.14707761951886159,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
 		},
 		{
-			"x": -5238.480138670727,
-			"y": -2856.373582773568,
+			"x": -5841.833243945603,
+			"y": -2904.0500890407816,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
 			"meta": {},
-			"id": "shape:q60GW0S7YEOQloo3aSexH",
-			"type": "text",
-			"props": {
-				"color": "yellow",
-				"size": "m",
-				"w": 65.9685287475586,
-				"text": "Probe",
-				"font": "sans",
-				"textAlign": "start",
-				"autoSize": true,
-				"scale": 1
-			},
-			"parentId": "page:page",
-			"index": "b269jc",
-			"typeName": "shape"
-		},
-		{
-			"x": -5238.1523160412335,
-			"y": -2825.9204445662604,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:Dkk30X0OqZ37Wsnmk3wXi",
-			"type": "text",
-			"props": {
-				"color": "black",
-				"size": "m",
-				"w": 596.7600092355952,
-				"text": " Probes are a configuration that you define in your Pod spec, a diagnostic tool used by Kubernetes to:\n - Check if the app is alive (Liveness Probe)\n - Check if the app is ready to accept traffic (Readiness Probe)\n - Check if the app started properly (Startup Probe)",
-				"font": "sans",
-				"textAlign": "start",
-				"autoSize": false,
-				"scale": 0.5964492517610708
-			},
-			"parentId": "page:page",
-			"index": "b27BSG",
-			"typeName": "shape"
-		},
-		{
-			"x": -5461.869968653145,
-			"y": -2774.8052030693716,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:P4UEwjagy56lVyYZVTzpY",
-			"type": "line",
-			"props": {
-				"dash": "draw",
-				"size": "m",
-				"color": "black",
-				"spline": "line",
-				"points": {
-					"a1": {
-						"id": "a1",
-						"index": "a1",
-						"x": 0,
-						"y": 0
-					},
-					"a2Bw1": {
-						"id": "a2Bw1",
-						"index": "a2Bw1",
-						"x": 200.87540204041125,
-						"y": 3.8022147903775476
-					}
-				},
-				"scale": 1
-			},
-			"parentId": "page:page",
-			"index": "b285G9",
-			"typeName": "shape"
-		},
-		{
-			"x": -5248.500238615588,
-			"y": -2892.947749679995,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:KZDsGLgDdD9U21Bqo6q5X",
+			"id": "shape:kf_se7wBUO6ktzWcTOYEJ",
 			"type": "geo",
 			"props": {
-				"w": 370.7962301501033,
-				"h": 248.02574565434637,
+				"w": 445.4011358353142,
+				"h": 392.6903807331846,
 				"geo": "rectangle",
 				"color": "blue",
 				"labelColor": "black",
@@ -5359,8 +5390,182 @@
 				"scale": 1
 			},
 			"parentId": "page:page",
-			"index": "b292Jp",
+			"index": "b2A3J5",
 			"typeName": "shape"
+		},
+		{
+			"x": -5544.034619121945,
+			"y": -2556.683674837261,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:_MHzMxsYYTMV5lkh82k4c",
+			"type": "text",
+			"props": {
+				"color": "yellow",
+				"size": "m",
+				"w": 134.68055725097656,
+				"text": "Deployment",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b2B6Fd",
+			"typeName": "shape"
+		},
+		{
+			"x": -5824.989619538309,
+			"y": -2652.078567296392,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:woGC-wEJ8hvSOXmC8gJ5l",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 596.7600092355952,
+				"text": "- Describes **what** you want (e.g., replicas, container image).\n- Manages app updates, scaling, and self-healing.",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 0.5964492517610708
+			},
+			"parentId": "page:page",
+			"index": "b2C6yO",
+			"typeName": "shape"
+		},
+		{
+			"x": -5310.75575221112,
+			"y": -2355.46928415289,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:AieRl3pzH2Ll9mBWvZrZi",
+			"type": "text",
+			"props": {
+				"color": "yellow",
+				"size": "m",
+				"w": 82.19573974609375,
+				"text": "Service",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b2D1iz",
+			"typeName": "shape"
+		},
+		{
+			"x": -5448.14751079363,
+			"y": -2437.5483021050786,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:oa2nHQeAwbwd9N2axWwp4",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 596.7600092355952,
+				"text": "Service:  provide a stable way to access Pods, regardless of their IPs (which can change when Pods are recreated. cuz Pods are ephemeral — their IPs can change.)",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 0.5964492517610708
+			},
+			"parentId": "page:page",
+			"index": "b2E4ne",
+			"typeName": "shape"
+		},
+		{
+			"x": -5459.739556234277,
+			"y": -2446.22540247265,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:OKjt9WRBb8YhFNjXYufMm",
+			"type": "geo",
+			"props": {
+				"w": 373.02982771370444,
+				"h": 129.4006675470796,
+				"geo": "rectangle",
+				"color": "blue",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b2FBNh",
+			"typeName": "shape"
+		},
+		{
+			"x": -5308.344020856152,
+			"y": -2463.355639336937,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:XkL6A0C56Bjh7kmrY_a5f",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "blue",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -164.42229177006993,
+					"y": -222.56246544450596
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b2G7Op",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:7LnzZd1VEhi5O-FdmRREl",
+			"type": "arrow",
+			"fromId": "shape:XkL6A0C56Bjh7kmrY_a5f",
+			"toId": "shape:OKjt9WRBb8YhFNjXYufMm",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.5027063035442897,
+					"y": 0.0013838204841468557
+				},
+				"terminal": "start"
+			},
+			"typeName": "binding"
 		}
 	]
 }
