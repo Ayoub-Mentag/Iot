@@ -644,7 +644,7 @@
 			"id": "shape:eS1eM0GVG3QifecUBRFEJ",
 			"type": "geo",
 			"props": {
-				"w": 1180.9731572073736,
+				"w": 777.6256840628422,
 				"h": 693.9441095479494,
 				"geo": "rectangle",
 				"color": "black",
@@ -665,8 +665,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6220.637927620423,
-			"y": -2578.1029673080775,
+			"x": -5782.011544979415,
+			"y": -2881.351123831534,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -748,8 +748,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5835.731666117961,
-			"y": -2892.061442842194,
+			"x": -5830.973051873103,
+			"y": -2645.2949038341394,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -757,8 +757,8 @@
 			"id": "shape:_N-45Lgo2pOYFvRzVRkg4",
 			"type": "geo",
 			"props": {
-				"w": 423.1528797603392,
-				"h": 207.81377582891585,
+				"w": 370.7962301501033,
+				"h": 248.02574565434637,
 				"geo": "rectangle",
 				"color": "blue",
 				"labelColor": "black",
@@ -778,8 +778,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6172.9091947326315,
-			"y": -2562.4583493753717,
+			"x": -5734.282812091623,
+			"y": -2865.7065058988283,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -801,8 +801,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6218.975065147774,
-			"y": -2428.0537662091674,
+			"x": -5784.11370971904,
+			"y": -2725.2111327615503,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -831,8 +831,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6188.112148175291,
-			"y": -2408.652207740558,
+			"x": -5758.593097846604,
+			"y": -2710.449636470383,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -854,8 +854,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5718.809077155725,
-			"y": -2280.6600337990244,
+			"x": -5856.049403975139,
+			"y": -2288.618021881037,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -877,8 +877,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6206.566009161512,
-			"y": -2526.851678198377,
+			"x": -5767.939626520503,
+			"y": -2830.0998347218338,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -923,7 +923,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6503.911910304374,
+			"x": -6504.911910304374,
 			"y": -2779.5712085259834,
 			"rotation": 0,
 			"isLocked": false,
@@ -953,8 +953,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6570.421104932115,
-			"y": -2780.671485469129,
+			"x": -6585.421104932115,
+			"y": -2778.671485469129,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -992,7 +992,7 @@
 			"id": "shape:62CbR18_EzDF-laubRLgC",
 			"type": "geo",
 			"props": {
-				"w": 2453.4039091563336,
+				"w": 2027.6207697687325,
 				"h": 1044.7790339129367,
 				"geo": "rectangle",
 				"color": "black",
@@ -3376,7 +3376,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6821.366787653438,
+			"x": -6796.366787653438,
 			"y": -3862.6132740725034,
 			"rotation": 0,
 			"isLocked": false,
@@ -3406,7 +3406,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6821.366787653438,
+			"x": -6796.366787653438,
 			"y": -3862.6132740725034,
 			"rotation": 0,
 			"isLocked": false,
@@ -3436,7 +3436,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6711.926966134497,
+			"x": -6686.926966134497,
 			"y": -3827.3809174369535,
 			"rotation": 0,
 			"isLocked": false,
@@ -3466,7 +3466,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6802.745761688175,
+			"x": -6777.745761688175,
 			"y": -3831.1646061385118,
 			"rotation": 0,
 			"isLocked": false,
@@ -3496,7 +3496,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6711.685986692499,
+			"x": -6686.685986692499,
 			"y": -3735.6803090065423,
 			"rotation": 0,
 			"isLocked": false,
@@ -3526,7 +3526,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6802.504782246176,
+			"x": -6777.504782246176,
 			"y": -3739.4639977080997,
 			"rotation": 0,
 			"isLocked": false,
@@ -3556,7 +3556,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6710.568298892822,
+			"x": -6685.568298892822,
 			"y": -3655.561464986963,
 			"rotation": 0,
 			"isLocked": false,
@@ -3586,7 +3586,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6801.3870944465,
+			"x": -6776.3870944465,
 			"y": -3659.3451536885204,
 			"rotation": 0,
 			"isLocked": false,
@@ -3616,7 +3616,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6710.327319450824,
+			"x": -6685.327319450824,
 			"y": -3563.860856556552,
 			"rotation": 0,
 			"isLocked": false,
@@ -3646,7 +3646,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6801.146115004501,
+			"x": -6776.146115004501,
 			"y": -3567.6445452581092,
 			"rotation": 0,
 			"isLocked": false,
@@ -3676,7 +3676,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6522.045288360445,
+			"x": -6497.045288360445,
 			"y": -3827.8167049367194,
 			"rotation": 0,
 			"isLocked": false,
@@ -3706,7 +3706,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6612.864083914123,
+			"x": -6587.864083914123,
 			"y": -3831.6003936382767,
 			"rotation": 0,
 			"isLocked": false,
@@ -3736,7 +3736,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6521.804308918447,
+			"x": -6496.804308918447,
 			"y": -3736.1160965063073,
 			"rotation": 0,
 			"isLocked": false,
@@ -3766,7 +3766,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6612.6231044721235,
+			"x": -6587.6231044721235,
 			"y": -3739.8997852078655,
 			"rotation": 0,
 			"isLocked": false,
@@ -3796,7 +3796,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6520.68662111877,
+			"x": -6495.68662111877,
 			"y": -3655.997252486729,
 			"rotation": 0,
 			"isLocked": false,
@@ -3826,7 +3826,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6611.505416672447,
+			"x": -6586.505416672447,
 			"y": -3659.7809411882863,
 			"rotation": 0,
 			"isLocked": false,
@@ -3856,7 +3856,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6520.445641676772,
+			"x": -6495.445641676772,
 			"y": -3564.296644056317,
 			"rotation": 0,
 			"isLocked": false,
@@ -3886,7 +3886,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6611.2644372304485,
+			"x": -6586.2644372304485,
 			"y": -3568.080332757875,
 			"rotation": 0,
 			"isLocked": false,
@@ -3916,7 +3916,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6349.697748900862,
+			"x": -6324.697748900862,
 			"y": -3828.1858452978468,
 			"rotation": 0,
 			"isLocked": false,
@@ -3946,7 +3946,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6440.516544454539,
+			"x": -6415.516544454539,
 			"y": -3831.969533999404,
 			"rotation": 0,
 			"isLocked": false,
@@ -3976,7 +3976,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6349.456769458863,
+			"x": -6324.456769458863,
 			"y": -3736.4852368674356,
 			"rotation": 0,
 			"isLocked": false,
@@ -4006,7 +4006,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6440.27556501254,
+			"x": -6415.27556501254,
 			"y": -3740.268925568993,
 			"rotation": 0,
 			"isLocked": false,
@@ -4036,7 +4036,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6348.339081659186,
+			"x": -6323.339081659186,
 			"y": -3656.3663928478563,
 			"rotation": 0,
 			"isLocked": false,
@@ -4066,7 +4066,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6439.157877212863,
+			"x": -6414.157877212863,
 			"y": -3660.1500815494137,
 			"rotation": 0,
 			"isLocked": false,
@@ -4096,7 +4096,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6348.098102217188,
+			"x": -6323.098102217188,
 			"y": -3564.665784417445,
 			"rotation": 0,
 			"isLocked": false,
@@ -4126,7 +4126,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6438.916897770865,
+			"x": -6413.916897770865,
 			"y": -3568.4494731190025,
 			"rotation": 0,
 			"isLocked": false,
@@ -4225,8 +4225,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -6220.206518446119,
-			"y": -4344.749667949637,
+			"x": -6227.82379437302,
+			"y": -4314.9076081212825,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4257,7 +4257,7 @@
 			"id": "shape:VMxv9SDxhpVb_-ALezwpl",
 			"type": "geo",
 			"props": {
-				"w": 1848.5096137699907,
+				"w": 2003.3481894498022,
 				"h": 1164.6011853619098,
 				"geo": "rectangle",
 				"color": "black",
@@ -4675,7 +4675,7 @@
 			"id": "shape:h8orfiemHHi4r1HkYPA1v",
 			"type": "geo",
 			"props": {
-				"w": 4946.85715852264,
+				"w": 2227.56516633514,
 				"h": 2811.1046172751307,
 				"geo": "rectangle",
 				"color": "violet",
@@ -4696,8 +4696,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -4828.81275837929,
-			"y": -4439.750490359504,
+			"x": -7473.832442217181,
+			"y": -1662.0541097442697,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4719,8 +4719,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -4872.030274541999,
-			"y": -4464.518797056774,
+			"x": -7517.049958379889,
+			"y": -1686.8224164415399,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4749,8 +4749,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -4138.955130290384,
-			"y": -3455.6975909924568,
+			"x": -6783.974814128274,
+			"y": -678.0012103772222,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4772,8 +4772,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -4853.399624433485,
-			"y": -3817.2926064689605,
+			"x": -7498.4193082713755,
+			"y": -1039.596225853726,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4795,8 +4795,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -4869.400688692845,
-			"y": -3620.269394871688,
+			"x": -7514.420372530735,
+			"y": -842.5730142564532,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4818,8 +4818,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -4906.883209145555,
-			"y": -4504.86270230415,
+			"x": -7551.902892983446,
+			"y": -1727.1663216889158,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4848,8 +4848,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3900.9751395181156,
-			"y": -4209.234559517929,
+			"x": -6545.994823356006,
+			"y": -1431.5381789026944,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4871,8 +4871,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3906.770155853462,
-			"y": -4090.3181859532842,
+			"x": -6551.789839691352,
+			"y": -1312.62180533805,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4894,8 +4894,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -7497.485899115276,
-			"y": -1249.0273319557655,
+			"x": -6534.886521357084,
+			"y": -1696.7151016038065,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4905,8 +4905,8 @@
 			"props": {
 				"color": "black",
 				"size": "s",
-				"w": 1162.2388493485269,
-				"text": "Difference between k3s and k3d:\n - k3s runs a lightweight Kubernetes cluster on a VM or physical host.\n - k3d runs k3s inside Docker containers.\n - k3s requires manual setup for multi-cluster support.\n - k3s is better for simulating production environments locally.\n - k3d is ideal for lightweight, quick setups on local machines or edge devices.",
+				"w": 1185.0035922400687,
+				"text": "A namespace is a logical partition inside a Kubernetes cluster. It allows you to:\n      - Separate resources by environment (e.g., dev, staging, prod)\n      - Manage access and permissions per group/team\n      - Avoid name collisions (e.g., two Pods named web in different namespaces)",
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": true,
@@ -4917,8 +4917,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3910.5841718217926,
-			"y": -4483.542491657636,
+			"x": -6555.603855659683,
+			"y": -1705.8461110424016,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4947,8 +4947,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3926.1332403641572,
-			"y": -4503.3290367119125,
+			"x": -6571.152924202048,
+			"y": -1725.6326560966784,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -4977,8 +4977,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3036.5906202808346,
-			"y": -3819.0281730369315,
+			"x": -5681.610304118725,
+			"y": -1041.3317924216974,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5000,8 +5000,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3909.2863000269917,
-			"y": -3975.037928414981,
+			"x": -6554.305983864882,
+			"y": -1197.3415477997464,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5023,8 +5023,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3905.628204039089,
-			"y": -3561.5300218449706,
+			"x": -6550.647887876979,
+			"y": -783.8336412297363,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5046,8 +5046,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3917.493768606023,
-			"y": -3581.5267177086444,
+			"x": -6562.513452443914,
+			"y": -803.8303370934102,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5076,8 +5076,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3153.4136760411166,
-			"y": -3458.89117367446,
+			"x": -5798.433359879007,
+			"y": -681.1947930592255,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5099,8 +5099,86 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -3917.493768606023,
-			"y": -3581.5267177086444,
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": -9964.5980510369,
+			"y": 198.73245171281678,
+			"lastActivityTimestamp": 1746531653903,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:font": "sans"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1206,
+				"h": 786
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 2,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": "shape:pBr-rY9hfLQLo4Pc_BWhs",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:pBr-rY9hfLQLo4Pc_BWhs"
+			],
+			"hoveredShapeId": "shape:pBr-rY9hfLQLo4Pc_BWhs",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 11551.035304928555,
+			"y": 664.1580427157792,
+			"z": 0.3273155769168942,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": -6562.513452443914,
+			"y": -803.8303370934102,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5129,8 +5207,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5821.9283195289145,
-			"y": -2879.74713074209,
+			"x": -5819.521924801228,
+			"y": -2634.297847691279,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5152,8 +5230,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5821.464913571372,
-			"y": -2846.3276543358015,
+			"x": -5819.058518843685,
+			"y": -2600.8783712849904,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -5164,7 +5242,7 @@
 				"color": "black",
 				"size": "m",
 				"w": 596.7600092355952,
-				"text": "Pod is the small units, it could contains multiple containers sharing same storage\nnetwork ... [Using that extra layer give possibility ]\n\nThe best practice is to have a single container per Pod; however, there are scenarios where multiple containers are necessary—for example, when using a sidecar container to collect or store logs",
+				"text": "Pod is the small units, it could contains multiple containers sharing same storage\nnetwork ... [Using that extra layer give possibility ]",
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": false,
@@ -5175,444 +5253,26 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -5763.978469044406,
-			"y": -3099.8816346497338,
+			"x": -10111.24731215319,
+			"y": 105.14891654240614,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
 			"meta": {},
-			"id": "shape:q60GW0S7YEOQloo3aSexH",
-			"type": "text",
-			"props": {
-				"color": "yellow",
-				"size": "m",
-				"w": 65.9685287475586,
-				"text": "Probe",
-				"font": "sans",
-				"textAlign": "start",
-				"autoSize": true,
-				"scale": 1
-			},
-			"parentId": "page:page",
-			"index": "b269jc",
-			"typeName": "shape"
-		},
-		{
-			"x": -5765.8574727879195,
-			"y": -3067.8742741521123,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:Dkk30X0OqZ37Wsnmk3wXi",
+			"id": "shape:pBr-rY9hfLQLo4Pc_BWhs",
 			"type": "text",
 			"props": {
 				"color": "black",
 				"size": "m",
-				"w": 596.7600092355952,
-				"text": " Probes are a configuration that you define in your Pod spec, a diagnostic tool used by Kubernetes to:\n - Check if the app is alive (Liveness Probe)\n - Check if the app is ready to accept traffic (Readiness Probe)\n - Check if the app started properly (Startup Probe)",
+				"w": 403.1077719802415,
+				"text": "So, “CI/CD pipeline” just means:\n\nA chain of automated steps that continuously integrate, test, and optionally deploy your code whenever you make changes.",
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": false,
-				"scale": 0.5964492517610708
-			},
-			"parentId": "page:page",
-			"index": "b27BSG",
-			"typeName": "shape"
-		},
-		{
-			"x": -5644.618673496431,
-			"y": -2893.8922090919214,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:P4UEwjagy56lVyYZVTzpY",
-			"type": "line",
-			"props": {
-				"dash": "draw",
-				"size": "m",
-				"color": "black",
-				"spline": "line",
-				"points": {
-					"a1": {
-						"id": "a1",
-						"index": "a1",
-						"x": 0,
-						"y": 0
-					},
-					"a2Bw1": {
-						"id": "a2Bw1",
-						"index": "a2Bw1",
-						"x": -1.5593502944329884,
-						"y": -50.94272457989291
-					}
-				},
 				"scale": 1
 			},
 			"parentId": "page:page",
-			"index": "b285G9",
-			"typeName": "shape"
-		},
-		{
-			"x": -5779.339272512622,
-			"y": -3106.1756612465992,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:KZDsGLgDdD9U21Bqo6q5X",
-			"type": "geo",
-			"props": {
-				"w": 370.7962301501033,
-				"h": 163.4764449990544,
-				"geo": "rectangle",
-				"color": "blue",
-				"labelColor": "black",
-				"fill": "none",
-				"dash": "draw",
-				"size": "m",
-				"font": "draw",
-				"text": "",
-				"align": "middle",
-				"verticalAlign": "middle",
-				"growY": 0,
-				"url": "",
-				"scale": 1
-			},
-			"parentId": "page:page",
-			"index": "b292Jp",
-			"typeName": "shape"
-		},
-		{
-			"x": -5841.833243945603,
-			"y": -2904.0500890407816,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:kf_se7wBUO6ktzWcTOYEJ",
-			"type": "geo",
-			"props": {
-				"w": 445.4011358353142,
-				"h": 392.6903807331846,
-				"geo": "rectangle",
-				"color": "blue",
-				"labelColor": "black",
-				"fill": "none",
-				"dash": "draw",
-				"size": "m",
-				"font": "draw",
-				"text": "",
-				"align": "middle",
-				"verticalAlign": "middle",
-				"growY": 0,
-				"url": "",
-				"scale": 1
-			},
-			"parentId": "page:page",
-			"index": "b2A3J5",
-			"typeName": "shape"
-		},
-		{
-			"x": -5544.034619121945,
-			"y": -2556.683674837261,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:_MHzMxsYYTMV5lkh82k4c",
-			"type": "text",
-			"props": {
-				"color": "yellow",
-				"size": "m",
-				"w": 134.68055725097656,
-				"text": "Deployment",
-				"font": "sans",
-				"textAlign": "start",
-				"autoSize": true,
-				"scale": 1
-			},
-			"parentId": "page:page",
-			"index": "b2B6Fd",
-			"typeName": "shape"
-		},
-		{
-			"x": -5824.989619538309,
-			"y": -2652.078567296392,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:woGC-wEJ8hvSOXmC8gJ5l",
-			"type": "text",
-			"props": {
-				"color": "black",
-				"size": "m",
-				"w": 596.7600092355952,
-				"text": "- Describes **what** you want (e.g., replicas, container image).\n- Manages app updates, scaling, and self-healing.",
-				"font": "sans",
-				"textAlign": "start",
-				"autoSize": false,
-				"scale": 0.5964492517610708
-			},
-			"parentId": "page:page",
-			"index": "b2C6yO",
-			"typeName": "shape"
-		},
-		{
-			"x": -5310.75575221112,
-			"y": -2355.46928415289,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:AieRl3pzH2Ll9mBWvZrZi",
-			"type": "text",
-			"props": {
-				"color": "yellow",
-				"size": "m",
-				"w": 82.19573974609375,
-				"text": "Service",
-				"font": "sans",
-				"textAlign": "start",
-				"autoSize": true,
-				"scale": 1
-			},
-			"parentId": "page:page",
-			"index": "b2D1iz",
-			"typeName": "shape"
-		},
-		{
-			"x": -5448.14751079363,
-			"y": -2437.5483021050786,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:oa2nHQeAwbwd9N2axWwp4",
-			"type": "text",
-			"props": {
-				"color": "black",
-				"size": "m",
-				"w": 596.7600092355952,
-				"text": "Service:  provide a stable way to access Pods, regardless of their IPs (which can change when Pods are recreated. cuz Pods are ephemeral — their IPs can change.)",
-				"font": "sans",
-				"textAlign": "start",
-				"autoSize": false,
-				"scale": 0.5964492517610708
-			},
-			"parentId": "page:page",
-			"index": "b2E4ne",
-			"typeName": "shape"
-		},
-		{
-			"x": -5459.739556234277,
-			"y": -2446.22540247265,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:OKjt9WRBb8YhFNjXYufMm",
-			"type": "geo",
-			"props": {
-				"w": 373.02982771370444,
-				"h": 129.4006675470796,
-				"geo": "rectangle",
-				"color": "blue",
-				"labelColor": "black",
-				"fill": "none",
-				"dash": "draw",
-				"size": "m",
-				"font": "draw",
-				"text": "",
-				"align": "middle",
-				"verticalAlign": "middle",
-				"growY": 0,
-				"url": "",
-				"scale": 1
-			},
-			"parentId": "page:page",
-			"index": "b2FBNh",
-			"typeName": "shape"
-		},
-		{
-			"x": -5308.344020856152,
-			"y": -2463.355639336937,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:XkL6A0C56Bjh7kmrY_a5f",
-			"type": "arrow",
-			"props": {
-				"dash": "draw",
-				"size": "m",
-				"fill": "none",
-				"color": "blue",
-				"labelColor": "black",
-				"bend": 0,
-				"start": {
-					"x": 0,
-					"y": 0
-				},
-				"end": {
-					"x": -164.42229177006993,
-					"y": -222.56246544450596
-				},
-				"arrowheadStart": "none",
-				"arrowheadEnd": "arrow",
-				"text": "",
-				"labelPosition": 0.5,
-				"font": "draw",
-				"scale": 1
-			},
-			"parentId": "page:page",
-			"index": "b2G7Op",
-			"typeName": "shape"
-		},
-		{
-			"meta": {},
-			"id": "binding:7LnzZd1VEhi5O-FdmRREl",
-			"type": "arrow",
-			"fromId": "shape:XkL6A0C56Bjh7kmrY_a5f",
-			"toId": "shape:OKjt9WRBb8YhFNjXYufMm",
-			"props": {
-				"isPrecise": true,
-				"isExact": false,
-				"normalizedAnchor": {
-					"x": 0.5027063035442897,
-					"y": 0.0013838204841468557
-				},
-				"terminal": "start"
-			},
-			"typeName": "binding"
-		},
-		{
-			"id": "pointer:pointer",
-			"typeName": "pointer",
-			"x": -7093.628864591683,
-			"y": -541.5974183869816,
-			"lastActivityTimestamp": 1746452353651,
-			"meta": {}
-		},
-		{
-			"followingUserId": null,
-			"opacityForNextShape": 1,
-			"stylesForNextShape": {},
-			"brush": null,
-			"scribbles": [],
-			"cursor": {
-				"type": "default",
-				"rotation": 0
-			},
-			"isFocusMode": false,
-			"exportBackground": true,
-			"isDebugMode": false,
-			"isToolLocked": false,
-			"screenBounds": {
-				"x": 0,
-				"y": 0,
-				"w": 1286.111083984375,
-				"h": 810.4166259765625
-			},
-			"insets": [
-				false,
-				false,
-				true,
-				false
-			],
-			"zoomBrush": null,
-			"isGridMode": false,
-			"isPenMode": false,
-			"chatMessage": "",
-			"isChatting": false,
-			"highlightedUserIds": [],
-			"isFocused": true,
-			"devicePixelRatio": 2.880000114440918,
-			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
-			"openMenus": [],
-			"isChangingStyle": false,
-			"isReadonly": false,
-			"meta": {},
-			"duplicateProps": null,
-			"id": "instance:instance",
-			"currentPageId": "page:page",
-			"typeName": "instance"
-		},
-		{
-			"editingShapeId": null,
-			"croppingShapeId": null,
-			"selectedShapeIds": [],
-			"hoveredShapeId": null,
-			"erasingShapeIds": [],
-			"hintingShapeIds": [],
-			"focusedGroupId": null,
-			"meta": {},
-			"id": "instance_page_state:page:page",
-			"pageId": "page:page",
-			"typeName": "instance_page_state"
-		},
-		{
-			"x": 9499.989694241747,
-			"y": 4511.039719789589,
-			"z": 0.14117314714748833,
-			"meta": {},
-			"id": "camera:page:page",
-			"typeName": "camera"
-		},
-		{
-			"x": -2985.7365673901004,
-			"y": -1893.3173519142588,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:jwbSQeON_Wl8NyUkuLffN",
-			"type": "text",
-			"props": {
-				"color": "black",
-				"size": "xl",
-				"w": 343.9850158691406,
-				"text": "K8S Architecture",
-				"font": "sans",
-				"textAlign": "start",
-				"autoSize": true,
-				"scale": 1
-			},
-			"parentId": "page:page",
-			"index": "b2H4DV",
-			"typeName": "shape"
-		},
-		{
-			"x": -3910.5841718217926,
-			"y": -4483.542491657636,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:ikGQj9R4I5xyMVt77uScZ",
-			"type": "geo",
-			"props": {
-				"w": 1230.729530609483,
-				"h": 206.44776102573155,
-				"geo": "rectangle",
-				"color": "black",
-				"labelColor": "black",
-				"fill": "none",
-				"dash": "solid",
-				"size": "s",
-				"font": "sans",
-				"text": "",
-				"align": "middle",
-				"verticalAlign": "middle",
-				"growY": 0,
-				"url": "",
-				"scale": 1
-			},
-			"parentId": "page:page",
-			"index": "b2I5gN",
+			"index": "b2520X",
 			"typeName": "shape"
 		}
 	]
