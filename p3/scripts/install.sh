@@ -35,6 +35,7 @@ echo "[INFO] Creating K3d cluster..."
 k3d cluster create iot-cluster \
   --api-port 6550 \
   -p "8888:30202@server:0" \
+  -p "8080:30443@server:0" \
   --wait
 
 # Create namespaces
@@ -54,3 +55,5 @@ kubectl apply -f ./confs/argocd-app.yaml
 
 echo "[✅ DONE] K3d cluster and Argo CD are ready."
 echo "👉 Your app will be available at: http://localhost:8888/"
+
+kubectl port-forward svc/argocd-server -n argocd 8080:443 > /dev/null 2>&1 &
