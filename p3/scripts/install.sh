@@ -1,12 +1,8 @@
 #!/bin/bash
 
+# Exit the script immediately if any command fails
+# (i.e., returns a non-zero exit code).
 set -e
-
-echo "[INFO] Checking for Homebrew..."
-if ! command -v brew &> /dev/null; then
-  echo "[ERROR] Homebrew is not installed. Please install it first: https://brew.sh/"
-  exit 1
-fi
 
 # Install k3d if not already installed
 if ! command -v k3d &> /dev/null; then

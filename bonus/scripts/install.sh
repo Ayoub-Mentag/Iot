@@ -4,24 +4,6 @@
 # (i.e., returns a non-zero exit code).
 set -e
 
-# Install k3d if not already installed
-if ! command -v k3d &> /dev/null; then
-  echo "[INFO] Installing k3d..."
-  brew install k3d
-fi
-
-# Install kubectl
-if ! command -v kubectl &> /dev/null; then
-  echo "[INFO] Installing kubectl..."
-  brew install kubectl
-fi
-
-# Install Argo CD CLI
-# if ! command -v argocd &> /dev/null; then
-#   echo "[INFO] Installing Argo CD CLI..."
-#   brew install argocd
-# fi
-
 # Create K3d cluster with NodePort 30202 exposed to host on port 8888
 echo "[INFO] Creating K3d cluster..."
 k3d cluster create bonus
@@ -31,7 +13,6 @@ kubectl create namespace argocd || true
 kubectl create namespace dev || true
 
 # MAKE SURE helm exists
-
 helm repo add gitlab https://charts.gitlab.io/
 helm repo update
 
@@ -59,10 +40,10 @@ helm install gitlab gitlab/gitlab \
 # Port forwarding 
 # SHOULD BE DYNAMIC
 # kubectl port-forward gitlab-nginx-ingress-controller-5597589d49-2hcf4 -n gitlab 9000:443 > /dev/null 2>&1 &
-kubectl port-forward \
-  -n gitlab \
-  $(kubectl get pods -n gitlab -l app.kubernetes.io/component=controller -o jsonpath='{.items[0].metadata.name}') \
-  9000:443 > /dev/null 2>&1 &
+# kubectl port-forward \
+#   -n gitlab \
+#   $(kubectl get pods -n gitlab -l app.kubernetes.io/component=controller -o jsonpath='{.items[0].metadata.name}') \
+#   9000:443 > /dev/null 2>&1 &
 
 
 # Step 1: Get root password

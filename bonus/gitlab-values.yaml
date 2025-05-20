@@ -1,0 +1,47 @@
+global:
+  edition: ce
+  hosts:
+    domain: localhost
+    externalIP: 127.0.0.1
+  ingress:
+    configureCertmanager: false
+    enabled: true
+
+nginx-ingress:
+  enabled: true
+  controller:
+    service:
+      type: LoadBalancer
+
+certmanager-issuer:
+  email: your-email@example.com
+
+gitlab:
+  webservice:
+    replicas: 1
+  sidekiq:
+    replicas: 1
+
+postgresql:
+  install: true
+  resources:
+    requests:
+      memory: 256Mi
+      cpu: 250m
+
+redis:
+  install: true
+  resources:
+    requests:
+      memory: 256Mi
+      cpu: 250m
+
+minio:
+  install: false
+
+registry:
+  enabled: false
+
+prometheus:
+  install: false
+
