@@ -2,12 +2,13 @@
 
 START=$(date +%s)
 
-# Install K3s in controller mode
-curl -sfL https://get.k3s.io | sh -
-
 # Install some necessary packages
 apt update
 apt install net-tools
+
+
+# Install K3s in controller mode
+curl -sfL https://get.k3s.io | sh -
 
 # Save the token to a shared directory so the worker can access it
 mkdir -p /vagrant/shared
