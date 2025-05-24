@@ -5099,84 +5099,6 @@
 			"typeName": "shape"
 		},
 		{
-			"id": "pointer:pointer",
-			"typeName": "pointer",
-			"x": -9964.5980510369,
-			"y": 198.73245171281678,
-			"lastActivityTimestamp": 1746531653903,
-			"meta": {}
-		},
-		{
-			"followingUserId": null,
-			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:font": "sans"
-			},
-			"brush": null,
-			"scribbles": [],
-			"cursor": {
-				"type": "default",
-				"rotation": 0
-			},
-			"isFocusMode": false,
-			"exportBackground": true,
-			"isDebugMode": false,
-			"isToolLocked": false,
-			"screenBounds": {
-				"x": 0,
-				"y": 0,
-				"w": 1206,
-				"h": 786
-			},
-			"insets": [
-				false,
-				false,
-				true,
-				false
-			],
-			"zoomBrush": null,
-			"isGridMode": false,
-			"isPenMode": false,
-			"chatMessage": "",
-			"isChatting": false,
-			"highlightedUserIds": [],
-			"isFocused": true,
-			"devicePixelRatio": 2,
-			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
-			"openMenus": [],
-			"isChangingStyle": false,
-			"isReadonly": false,
-			"meta": {},
-			"duplicateProps": null,
-			"id": "instance:instance",
-			"currentPageId": "page:page",
-			"typeName": "instance"
-		},
-		{
-			"editingShapeId": "shape:pBr-rY9hfLQLo4Pc_BWhs",
-			"croppingShapeId": null,
-			"selectedShapeIds": [
-				"shape:pBr-rY9hfLQLo4Pc_BWhs"
-			],
-			"hoveredShapeId": "shape:pBr-rY9hfLQLo4Pc_BWhs",
-			"erasingShapeIds": [],
-			"hintingShapeIds": [],
-			"focusedGroupId": null,
-			"meta": {},
-			"id": "instance_page_state:page:page",
-			"pageId": "page:page",
-			"typeName": "instance_page_state"
-		},
-		{
-			"x": 11551.035304928555,
-			"y": 664.1580427157792,
-			"z": 0.3273155769168942,
-			"meta": {},
-			"id": "camera:page:page",
-			"typeName": "camera"
-		},
-		{
 			"x": -6562.513452443914,
 			"y": -803.8303370934102,
 			"rotation": 0,
@@ -5274,6 +5196,161 @@
 			"parentId": "page:page",
 			"index": "b2520X",
 			"typeName": "shape"
+		},
+		{
+			"x": -7649.182407526217,
+			"y": 139.06213402967114,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Onvl4Ly3wPGJA0IS97gdF",
+			"type": "geo",
+			"props": {
+				"w": 2003.3481894498022,
+				"h": 1561.734810918169,
+				"geo": "rectangle",
+				"color": "light-blue",
+				"labelColor": "black",
+				"fill": "none",
+				"dash": "solid",
+				"size": "xl",
+				"font": "draw",
+				"text": "",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"growY": 0,
+				"url": "",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "b265fk",
+			"typeName": "shape"
+		},
+		{
+			"x": -7179.324584807227,
+			"y": 143.20294338672835,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ail8mp0ryFG9WswQu6g44",
+			"type": "text",
+			"props": {
+				"color": "light-blue",
+				"size": "xl",
+				"w": 222.55482931336707,
+				"text": "Correction",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 5.06161968945257
+			},
+			"parentId": "page:page",
+			"index": "b2792x",
+			"typeName": "shape"
+		},
+		{
+			"x": -7572.065837924684,
+			"y": 531.5063186061061,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:LXGo_NhAM24w-H05iKV3h",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "xl",
+				"w": 1823.098258237901,
+				"text": "k8s architechture ?\ndiff btw k3d and k3s ?\n\nwhy service exist? \nwhat are the types of services with examples ? [NodePort, LoadBalencer, portForward]\nwhat is ingress ? what is traefik ?\n\nwhat is deployment (understand by config file) ?\n\n\nwhat is argocd ? \n\n\n-----------\n\n\nwhat is vagrant ?",
+				"font": "sans",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1.0489955953235437
+			},
+			"parentId": "page:page",
+			"index": "b282ng",
+			"typeName": "shape"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": -5909.358145276593,
+			"y": 1835.986644915512,
+			"lastActivityTimestamp": 1748112642455,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:color": "light-blue",
+				"tldraw:dash": "solid",
+				"tldraw:size": "xl",
+				"tldraw:textAlign": "start"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1286.111083984375,
+				"h": 810.4166259765625
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 2.880000114440918,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 8231.705392334814,
+			"y": 57.76535013765033,
+			"z": 0.3488032629010943,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
 		}
 	]
 }
