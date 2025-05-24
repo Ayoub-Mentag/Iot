@@ -1,23 +1,5 @@
 #!/bin/bash
 
-# Install k3d if not already installed
-if ! command -v k3d &> /dev/null; then
-  echo "[INFO] Installing k3d..."
-  brew install k3d
-fi
-
-# Install kubectl
-if ! command -v kubectl &> /dev/null; then
-  echo "[INFO] Installing kubectl..."
-  brew install kubectl
-fi
-
-# Install Argo CD CLI
-if ! command -v argocd &> /dev/null; then
-  echo "[INFO] Installing Argo CD CLI..."
-  brew install argocd
-fi
-
 # Delete old cluster if exists
 echo "[INFO] Deleting old cluster if exists..."
 k3d cluster delete my-cluster || true
