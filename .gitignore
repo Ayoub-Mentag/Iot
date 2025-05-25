@@ -1,3 +1,4 @@
 .vagrant
 shared
 *.log
+.DS_Store
