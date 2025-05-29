@@ -1,11 +1,7 @@
 #!/bin/bash
 
-# Delete old cluster if exists
-echo "[INFO] Deleting old cluster if exists..."
+# Create cluster
 k3d cluster delete my-cluster || true
-
-# Create K3d cluster with NodePort 30202 exposed to host on port 8888
-echo "[INFO] Creating K3d cluster..."
 k3d cluster create my-cluster
 
 # Create namespaces
@@ -16,12 +12,10 @@ kubectl create namespace dev || true
 echo "[INFO] Installing Argo CD into Kubernetes..."
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 
-
 # Waiting for Argo CD server to be ready..."
 kubectl wait --for=condition=available --timeout=180s -n argocd deploy/argocd-server
 
 # Apply Argo CD Application resource (points to your GitHub repo)
-echo "[INFO] Applying Argo CD Application..."
 kubectl apply -f ./confs/argocd-app.yaml
 
 kubectl port-forward svc/argocd-server -n argocd 8080:443 > /dev/null 2>&1 &
