@@ -6,7 +6,7 @@ k3d cluster delete my-cluster || true
 
 # Create K3d cluster with NodePort 30202 exposed to host on port 8888
 echo "[INFO] Creating K3d cluster..."
-k3d cluster create my-cluster --port "9000:9000@loadbalancer"
+k3d cluster create my-cluster
 
 # Create namespaces
 kubectl create namespace argocd || true

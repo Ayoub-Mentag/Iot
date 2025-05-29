@@ -1,0 +1,42 @@
+global:
+  hosts:
+    domain: local.gitlab.com
+    https: false
+  ingress:
+    configureCertmanager: false
+    tls:
+      enabled: false
+
+certmanager:
+  install: false
+
+nginx-ingress:
+  enabled: false
+
+gitlab-runner:
+  install: false
+
+registry:
+  enabled: false
+
+gitlab:
+  webservice:
+    minReplicas: 1
+    maxReplicas: 1
+  sidekiq:
+    minReplicas: 1
+    maxReplicas: 1
+
+postgresql:
+  metrics:
+    enabled: false
+
+redis:
+  metrics:
+    enabled: false
+
+prometheus:
+  install: false
+
+grafana:
+  enabled: false

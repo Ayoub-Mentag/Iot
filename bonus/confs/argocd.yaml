@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: https://gitlab.example.com:9000/root/amentag-manifest
+    repoURL: http://gitlab-webservice-default.gitlab.svc.cluster.local:8181/root/amentag-manifest.git 
     targetRevision: HEAD
     path: app
   syncPolicy:

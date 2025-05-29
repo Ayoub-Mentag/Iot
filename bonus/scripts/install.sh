@@ -1,110 +1,124 @@
 #!/bin/bash
 
-# Exit the script immediately if any command fails
-# (i.e., returns a non-zero exit code).
-set -e
+rm -rf /root/home/amentag-manifest/.git
+k3d cluster delete my-cluster
 
-# Create K3d cluster with NodePort 30202 exposed to host on port 8888
-echo "[INFO] Creating K3d cluster..."
-k3d cluster create bonus
+CLUSTER_NAME=my-cluster
 
-# Create namespaces
-kubectl create namespace argocd || true
-kubectl create namespace dev || true
+k3d cluster create $CLUSTER_NAME
 
-# MAKE SURE helm exists
+kubectl create namespace gitlab
+kubectl create namespace argocd
+kubectl create namespace dev
+
 helm repo add gitlab https://charts.gitlab.io/
 helm repo update
 
-# install gitlab with localhost config
 helm install gitlab gitlab/gitlab \
   --namespace gitlab \
-  --create-namespace \
-  --set global.hosts.domain=example.com \
-  --set global.hosts.externalIP=127.0.0.1 \
-  --set certmanager-issuer.email=you@example.com \
+  --values ../confs/gitlab-values.yaml \
   --timeout 600s
 
-# Modify the /etc/hosts
-# 127.0.0.1       gitlab.example.com
+while true; do
+  NOT_READY=$(kubectl get pods -n gitlab --no-headers | grep -vE 'Running|Completed' | wc -l)
+  
+  if [ "$NOT_READY" -eq 0 ]; then
+    echo "✅ All GitLab pods are running or completed."
+    break
+  else
+    echo "⏳ Waiting... ($NOT_READY pods not ready)"
+    sleep 10
+  fi
+done
 
 
-# wait for deployment ready
-# kubectl wait --for=condition=available deployments --all -n gitlab
+kubectl port-forward -n gitlab svc/gitlab-webservice-default 9500:8181 > /dev/null 2>&1 &
+
+# === CONFIGURATION ===
+GITLAB_HOST="gitlab.local"
+GITLAB_PORT="9500"
+PROJECT_NAME="amentag-manifest"
+USERNAME="root"
+EMAIL="ayoubmentag21@gmail.com"
+LOCAL_PROJECT_PATH="/root/home/amentag-manifest"  # ← Change to your actual local project path
+
+# === 1. Generate GitLab Personal Access Token via gitlab-rails ===
+echo "🔐 Generating GitLab token using gitlab-rails..."
+# GITLAB_TOKEN=$(kubectl exec -n gitlab deploy/gitlab-toolbox -- \
+#   gitlab-rails runner \
+#   "token = PersonalAccessToken.create!(user: User.find_by_username('$USERNAME'), name: 'automation-token', scopes: [:api], expires_at: 30.days.from_now); puts token.token")
+GITLAB_TOKEN=$(kubectl exec -n gitlab deploy/gitlab-toolbox -- \
+  gitlab-rails runner \
+  "token = PersonalAccessToken.create!(user: User.find_by_username('$USERNAME'), name: 'automation-token', scopes: [:api, :read_repository], expires_at: 30.days.from_now); puts token.token")
 
 
-# Get credentials 
-# username => root
-# password => kubectl -n gitlab get secret gitlab-gitlab-initial-root-password -ojsonpath="{.data.password}" | base64 --decode
+if [ -z "$GITLAB_TOKEN" ]; then
+  echo "❌ Failed to generate GitLab token"
+  exit 1
+fi
 
-# Port forwarding 
-# SHOULD BE DYNAMIC
-# kubectl port-forward gitlab-nginx-ingress-controller-5597589d49-2hcf4 -n gitlab 9000:443 > /dev/null 2>&1 &
-# kubectl port-forward \
-#   -n gitlab \
-#   $(kubectl get pods -n gitlab -l app.kubernetes.io/component=controller -o jsonpath='{.items[0].metadata.name}') \
-#   9000:443 > /dev/null 2>&1 &
+# Save token 
+echo $GITLAB_TOKEN > token
 
+echo "✅ Token generated: $GITLAB_TOKEN"
 
-# Step 1: Get root password
-# echo "[INFO] Getting GitLab root password..."
-# GITLAB_ROOT_PASSWORD=$(kubectl -n gitlab get secret gitlab-gitlab-initial-root-password -ojsonpath="{.data.password}" | base64 --decode)
-
-# # Step 2: Wait for GitLab to be reachable
-# echo "[INFO] Waiting for GitLab to respond..." 
-# # ???
-# until curl -k --silent --output /dev/null --fail https://localhost:9000/users/sign_in; do
-#   echo "Waiting for GitLab to be up..."
-#   sleep 5
-# done
-
-# # Step 3: Login and get a personal access token using GitLab API
-# echo "[INFO] Getting GitLab root token..."
-# GITLAB_TOKEN=$(curl -k --request POST "https://localhost:9000/api/v4/session" \
-#   --header "Content-Type: application/json" \
-#   --data "{\"login\":\"root\",\"password\":\"$GITLAB_ROOT_PASSWORD\"}" \
-#   | jq -r '.private_token')
-
-# # Fallback if /session is disabled (alternative way using PAT creation API — optional)
-
-# # Step 4: Create project
-# REPO_NAME="my-app"
-# echo "[INFO] Creating GitLab project $REPO_NAME..."
-# curl -k --request POST "https://localhost:9000/api/v4/projects" \
+# # === 2. Create GitLab Project via API ===
+# echo "📁 Creating project '$PROJECT_NAME'..."
+# curl --insecure -s --request POST "http://$GITLAB_HOST:$GITLAB_PORT/api/v4/projects" \
 #   --header "PRIVATE-TOKEN: $GITLAB_TOKEN" \
-#   --data "name=$REPO_NAME&visibility=private"
+#   --header "Content-Type: application/json" \
+#   --data "{ \"name\": \"$PROJECT_NAME\", \"visibility\": \"public\" }" > /dev/null
 
-# # Step 5: Push your local manifests to GitLab
-# echo "[INFO] Pushing local manifests to GitLab repo..."
-# GIT_REPO_URL="https://root:$GITLAB_TOKEN@localhost:9000/root/$REPO_NAME.git"
+# echo "✅ Project created"
 
-# rm -rf /tmp/$REPO_NAME
-# mkdir -p /tmp/$REPO_NAME
-# cp -r ./confs/manifests/* /tmp/$REPO_NAME
+# === 3. Configure Git and Push ===
+git config --global user.email "$EMAIL"
+git config --global user.name "$USERNAME"
 
-# cd /tmp/$REPO_NAME
-# git init
-# git remote add origin "$GIT_REPO_URL"
-# git checkout -b main
-# git add .
-# git commit -m "Initial commit"
-# git push -u origin main
-# cd -
+echo "🚀 Pushing project from $LOCAL_PROJECT_PATH..."
+cd "$LOCAL_PROJECT_PATH" || { echo "❌ Cannot cd into $LOCAL_PROJECT_PATH"; exit 1; }
+
+git init
+
+# Build the remote URL with proper quoting
+# ENCODED_TOKEN=$(python3 -c "import urllib.parse; print(urllib.parse.quote('''$GITLAB_TOKEN'''))")
+GIT_REMOTE="http://${USERNAME}:${GITLAB_TOKEN}@${GITLAB_HOST}:${GITLAB_PORT}/${USERNAME}/${PROJECT_NAME}.git"
+echo GIT_REMOTE $GIT_REMOTE
+git remote add origin "$GIT_REMOTE"
+
+git add .
+git commit -m "Initial commit" || echo "✅ Nothing to commit"
+
+echo "⏳ Waiting for GitLab web interface to become available..."
+until curl -s -o /dev/null -w "%{http_code}" "http://${GITLAB_HOST}:${GITLAB_PORT}/users/sign_in" | grep -q "200"; do
+  echo "⌛ GitLab not ready yet. Retrying in 10s..."
+  sleep 10
+done
+
+git push -u origin master
+
+# # Configure argocd
+
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+kubectl wait --for=condition=available --timeout=300s deployment/argocd-server -n argocd
+
+ARGOCD_PWD=$(kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d)
+
+kubectl port-forward svc/argocd-server -n argocd 8080:443 > /dev/null 2>&1 &
 
 
+# Wait until Argo CD API is ready
+echo "Waiting for Argo CD API to be ready..."
+until curl -s -k https://localhost:8080/healthz | grep "ok" >/dev/null; do
+  sleep 2
+done
 
-# Install Argo CD
-# echo "[INFO] Installing Argo CD into Kubernetes..."
-# kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 
-# echo "[INFO] Waiting for Argo CD server to be ready..."
-# kubectl wait --for=condition=available --timeout=180s -n argocd deploy/argocd-server
+argocd login localhost:8080 --username admin --password $ARGOCD_PWD --insecure
 
-# # Apply Argo CD Application resource (points to your GitHub repo)
-# echo "[INFO] Applying Argo CD Application..."
-# kubectl apply -f ./confs/argocd-app.yaml
+argocd repo add http://gitlab-webservice-default.gitlab.svc.cluster.local:8181/root/amentag-manifest.git --username root  --password $GITLAB_TOKEN --insecure-skip-server-verification
 
-# echo "[✅ DONE] K3d cluster and Argo CD are ready."
-# echo "👉 Your app will be available at: http://localhost:8888/"
+kubectl apply -f /root/home/bonus/confs/argocd.yaml
 
-# kubectl port-forward svc/argocd-server -n argocd 8080:443 > /dev/null 2>&1 &
+# # Change everything to loadbalencer
+# kubectl port-forward svc/my-app-service -n dev 9500:9000 > /dev/null 2>&1 &
