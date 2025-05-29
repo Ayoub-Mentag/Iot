@@ -81,4 +81,4 @@ done
 
 argocd login localhost:8080 --username admin --password $ARGOCD_PWD --insecure
 argocd repo add http://gitlab-webservice-default.gitlab.svc.cluster.local:8181/root/amentag-manifest.git --username root  --password $GITLAB_TOKEN --insecure-skip-server-verification
-kubectl apply -f /root/home/bonus/confs/argocd.yaml
+kubectl apply -f /root/home/IoT/bonus/confs/argocd.yaml
