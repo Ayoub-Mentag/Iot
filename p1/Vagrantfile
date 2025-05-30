@@ -1,13 +1,12 @@
 Vagrant.configure("2") do |config|
-  # Use a compatible Ubuntu box for macOS Intel with VirtualBox
-  config.vm.box = "bento/ubuntu-20.04" # "ubuntu/focal64"
+  config.vm.box = "bento/ubuntu-20.04"
 
   # Server Node
-  config.vm.define "amentagS" do |server|
-    server.vm.hostname = "amentagS"
+  config.vm.define "yel-hajjS" do |server|
+    server.vm.hostname = "yel-hajjS"
     server.vm.network "private_network", ip: "192.168.56.110"
     server.vm.provider "virtualbox" do |vb|
-      vb.name = "k3s-server" # <<< Add this line to give it a unique VM name
+      vb.name = "k3s-server"
       vb.memory = 1024
       vb.cpus = 1
     end
@@ -22,7 +21,7 @@ Vagrant.configure("2") do |config|
     worker.vm.hostname = "mtigunitSW"
     worker.vm.network "private_network", ip: "192.168.56.111"
     worker.vm.provider "virtualbox" do |vb|
-      vb.name = "k3s-agent" # <<< Add this line to give it a unique VM name
+      vb.name = "k3s-agent"
       vb.memory = 1024
       vb.cpus = 1
     end
