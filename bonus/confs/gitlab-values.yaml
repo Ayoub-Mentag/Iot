@@ -1,6 +1,6 @@
 global:
   hosts:
-    domain: local.gitlab.com
+    domain: local.gitlab.com # base domain name that GitLab and its associated services will use
     https: false
   ingress:
     configureCertmanager: false
