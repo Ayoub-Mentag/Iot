@@ -2,8 +2,6 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: my-ingress
-  # annotations:
-  #   nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: traefik
   rules:
@@ -27,7 +25,6 @@ spec:
             name: app2-service
             port:
               number: 80
-  # NO HOST HERE — this will be the default catch-all
   - http:
       paths:
       - path: /
