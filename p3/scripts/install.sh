@@ -10,8 +10,6 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 kubectl wait --for=condition=available --timeout=180s -n argocd deploy/argocd-server
 
-
-# add makefile and change this path 
-kubectl apply -f ../confs/argocd-app.yaml
+kubectl apply -f ./p3/confs/argocd-app.yaml
 
 kubectl port-forward svc/argocd-server -n argocd 8080:443 > /dev/null 2>&1 &
