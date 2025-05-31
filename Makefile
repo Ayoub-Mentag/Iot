@@ -11,9 +11,3 @@ p3:
 
 bonus:
 	./bonus/scripts/install.sh
-
-clean:
-	vagrant box remove bento/ubuntu-20.04
-	VAGRANT_CWD=./p1 vagrant destroy -f ; rm -rf .vagrant
-	VAGRANT_CWD=./p2 vagrant destroy -f ; rm -rf .vagrant
-	k3d cluster delete my-cluster
